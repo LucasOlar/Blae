@@ -16,9 +16,10 @@ from functools import reduce
 # Cleaning the ASS format subtitles
 
 # set the path to the directory containing the files
-path = "C:/Users/lucas_/Documents/Github/Text-Analysis-Bleach-Anime/"
 
-library = "Episode_Subtitles"
+path = os.getcwd()
+
+library = "/Episode_Subtitles"
 
 file_name = 'CleanedData.csv'
 
